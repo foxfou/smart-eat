@@ -5,7 +5,7 @@ export default function ShoppingListPage() {
     const [list, setList] = useState<ShoppingList | null>(null)
 
     useEffect(() => {
-        fetch(`${process.env.BASE_PATH}/shopping-list.json`)
+        fetch(`/shopping-list.json`)
             .then((res) => res.json())
             .then(setList)
     }, [])

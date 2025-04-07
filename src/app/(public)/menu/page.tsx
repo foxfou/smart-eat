@@ -5,7 +5,7 @@ export default function MenuPage() {
     const [menu, setMenu] = useState<any | MealPlan>(null)
 
     useEffect(() => {
-        fetch(`${process.env.BASE_PATH}/menu.json`)
+        fetch(`/menu.json`)
             .then((res) => res.json())
             .then(setMenu)
     }, [])
