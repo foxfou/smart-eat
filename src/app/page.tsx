@@ -1,7 +1,7 @@
 
 // pages/index.tsx
 export default function Home() {
-    console.log(process.env.BASE_PATH)
+    console.log('123 ',process.env.BASE_PATH)
     return (
         <main className="p-6">
             <h1 className="text-2xl font-bold mb-4">LifeMenu</h1>
