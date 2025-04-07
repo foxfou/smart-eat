@@ -1,0 +1,124 @@
+{
+  "location": "Батуми, Грузия",
+  "currency": {
+    "name": "Лари",
+    "symbol": "₾"
+  },
+  "items": [
+    {
+      "product": "Куриная грудка",
+      "amount": "1 кг",
+      "pricePerKg": 13,
+      "total": 13.0
+    },
+    {
+      "product": "Говяжий фарш",
+      "amount": "0.5 кг",
+      "pricePerKg": 20,
+      "total": 10.0
+    },
+    {
+      "product": "Яйца (20 шт)",
+      "amount": "~1.2 кг",
+      "pricePerKg": 7,
+      "total": 8.4
+    },
+    {
+      "product": "Сыр (сулугуни/маслам)",
+      "amount": "300 г",
+      "pricePerKg": 30,
+      "total": 9.0
+    },
+    {
+      "product": "Гречка",
+      "amount": "1 кг",
+      "pricePerKg": 4,
+      "total": 4.0
+    },
+    {
+      "product": "Рис",
+      "amount": "1 кг",
+      "pricePerKg": 4,
+      "total": 4.0
+    },
+    {
+      "product": "Макароны (твердые)",
+      "amount": "500 г",
+      "pricePerKg": 5,
+      "total": 2.5
+    },
+    {
+      "product": "Картошка",
+      "amount": "1 кг",
+      "pricePerKg": 3.5,
+      "total": 3.5
+    },
+    {
+      "product": "Лаваш / тортилья",
+      "amount": "~350 г",
+      "pricePerItem": 10,
+      "total": 3.5
+    },
+    {
+      "product": "Капуста",
+      "amount": "1 кг",
+      "pricePerKg": 3,
+      "total": 3.0
+    },
+    {
+      "product": "Морковь",
+      "amount": "500 г",
+      "pricePerKg": 2,
+      "total": 1.0
+    },
+    {
+      "product": "Помидоры",
+      "amount": "1 кг",
+      "pricePerKg": 5,
+      "total": 5.0
+    },
+    {
+      "product": "Огурцы",
+      "amount": "500 г",
+      "pricePerKg": 5,
+      "total": 2.5
+    },
+    {
+      "product": "Сладкий перец",
+      "amount": "500 г",
+      "pricePerKg": 6,
+      "total": 3.0
+    },
+    {
+      "product": "Йогурт (натуральный)",
+      "amount": "3 шт",
+      "pricePerItem": 3,
+      "total": 9.0
+    },
+    {
+      "product": "Молоко",
+      "amount": "1 литр",
+      "pricePerKg": 5,
+      "total": 5.0
+    },
+    {
+      "product": "Фрукты (яблоки и др.)",
+      "amount": "2 кг",
+      "pricePerKg": 4,
+      "total": 8.0
+    },
+    {
+      "product": "Сметана",
+      "amount": "200 г",
+      "pricePerKg": 8,
+      "total": 1.6
+    },
+    {
+      "product": "Масло (растительное)",
+      "amount": "200 г",
+      "pricePerKg": 10,
+      "total": 2.0
+    }
+  ],
+  "total_cost": 81.5
+}
