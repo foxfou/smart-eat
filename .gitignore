@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/.idea/git_toolbox_blame.xml
+/.env
+/.idea/git_toolbox_prj.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/smart-eat.iml
+/.idea/vcs.xml
