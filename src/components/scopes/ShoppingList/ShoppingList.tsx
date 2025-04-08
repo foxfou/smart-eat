@@ -61,7 +61,7 @@ export function ShoppingList() {
                                 onChange={() => toggleChecked(item.product)}
                             />
 
-                            <span className={isChecked ? 'line-through text-stone-400' : ''}>
+                            <span className={isChecked ? 'line-through text-stone-600' : ''}>
                                 <span className="font-medium">{item.product}</span> – {item.amount} ({item.total} {list.currency.symbol})
                             </span>
 
@@ -70,7 +70,7 @@ export function ShoppingList() {
                 })}
             </ul>
 
-            <div className="mt-4 text-sm text-gray-500">
+            <div className="mt-4 text-sm text-stone-500">
                 Локация: {list.location}<br/>
                 Валюта: {list.currency.name} ({list.currency.symbol})<br/>
                 Всего: {list.total_cost} {list.currency.symbol}
