@@ -10,7 +10,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body className="text-stone-800 dark:bg-stone-950 dark:text-stone-100">
+    <head>
+        <link rel="icon" href="./favicon.ico" sizes="any"/>
+    </head>
+    <body className="text-stone-800 dark:bg-stone-950 dark:text-stone-100">
         {children}
       </body>
     </html>
