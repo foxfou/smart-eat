@@ -37,7 +37,7 @@ export function Menu() {
             <h1 className="text-2xl font-bold mb-6">Меню на {currentIndex + 1} день</h1>
 
             <div className="mb-4 flex justify-center gap-2">
-                {menu.days.map((_, i) => (
+                {menu.days.map((day: Day, i: number) => (
                     <div
                         key={i}
                         className={`h-2 w-full rounded-full transition-all duration-300 ${
