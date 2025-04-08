@@ -1,0 +1,1 @@
+export { Layout as default } from '@/components/scopes/Home/layout'
